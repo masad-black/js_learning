@@ -3,6 +3,7 @@
     
  [] for array
  {} for object
+ `${}` for string
  
  */
 
@@ -35,4 +36,6 @@ let obj = {
   "!": "none",
 };
 
-console.log(obj["!"]);
+console.log("Obj type: ", typeof obj);
+console.log("fn type: ", typeof getCarName);
+console.log("array type: ", typeof gArray);

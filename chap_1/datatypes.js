@@ -1,4 +1,6 @@
 /*
+// these are all primitives datatypes, means that it give you the copy refrence to update the value not the actual refrence.
+
 js have different datatypes
 
 1) null
@@ -101,7 +103,14 @@ console.log("=> conversion Boolean");
 let num1 = 10;
 let num2 = --num1;
 
-console.log(undefined == 0);
-console.log(undefined > 0);
-console.log(undefined >= 0);
-console.log(undefined <= 0);
+// console.log(undefined == 0);
+// console.log(undefined > 0);
+// console.log(undefined >= 0);
+// console.log(undefined <= 0);
+
+console.log("org val: ", val1);
+
+val1 = 30;
+let hold = val1;
+
+console.log("mod val: ", val1, hold);
